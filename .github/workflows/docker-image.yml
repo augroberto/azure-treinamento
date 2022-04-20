@@ -15,5 +15,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag mycontainer:$(date +%s)
+      run: docker build . --file Dockerfile --tag acrcomunidadecloud.azurecr.io/mycontainer:$(date +%s)
+      
+    - name: Push the docker image
+      run: docker push acrcomunidadecloud.azurecr.io/myconmtainer:$(date +%s)
+    
 
