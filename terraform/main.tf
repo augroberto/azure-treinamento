@@ -9,7 +9,7 @@ terraform{
     resource_group_name  = "tamopstfstates"
     storage_account_name = "cctamopstf"
     container_name       = "tfstatedevops"
-    key                  = "terraformgithubexample.tfstate"
+    key                  = "terraform.tfstate"
   }
 }
 
