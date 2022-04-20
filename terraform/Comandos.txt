@@ -1,3 +1,5 @@
+Terraform
+
 az login
 
 az account list
@@ -17,3 +19,30 @@ Terraform Apply
 Terraform Destroy
 
 az acr update --name cloudtreinamentos --anonymous-pull-enabled
+
+
+
+github 
+
+Create Service Principal
+
+az login
+az account set --subscription "Cloud Treinamentos"
+
+
+az group create -n tamopstfstates -l eastus2
+
+az storage account create -n cctamopstf -g tamopstfstates -l eastus2 --sku Standard_LRS
+ 
+az storage container create -n tfstatedevops --account-name cctamopstf
+
+
+
+az ad sp create-for-rbac --name terraformsp
+
+role assignment subscription
+
+    AZURE_AD_CLIENT_ID – Will be the service principal ID from above
+    AZURE_AD_CLIENT_SECRET – The secret that was created as part of the Azure Service Principal
+    AZURE_AD_TENANT_ID – The Azure AD tenant ID to where the service principal was created
+    AZURE_SUBSCRIPTION_ID – Subscription ID of where you want to deploy the Terraform
