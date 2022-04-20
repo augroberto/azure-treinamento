@@ -23,5 +23,5 @@ jobs:
           password: ${{ secrets.DOCKERACR_TOKEN }}
           
       - run: |
-          docker build -t acrcomunidadecloud.azurecr.io/mycontainer:v1 .
-          docker push acrcomunidadecloud.azurecr.io/mycontainer:v1
+          docker build -t acrcomunidadecloud.azurecr.io/mycontainer:$(date +%s) .
+          docker push acrcomunidadecloud.azurecr.io/mycontainer:$(date +%s)
