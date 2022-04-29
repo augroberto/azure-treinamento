@@ -9,6 +9,7 @@ Um grupo de recursos é um contêiner que mantém os recursos relacionados a uma
 1. Acessar Portal do Azure https://portal.azure.com/#home
 
 2. Selecione Resource Groups
+
 ![Alt ou título da imagem](img/manage-resource-groups-add-group.png)
 
 3. Clique em adicionar (+Add)
