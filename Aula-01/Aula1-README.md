@@ -1,4 +1,4 @@
-# Azure Treinamento (Aula 01 - Azure Basics)
+# Azure Treinamento (Aula 01 - Azure Basics Services)
 Nesta aula vamos apenas criar criar um resource group via Portal do Azure e tambem vamos ver como criar via Azure CLI
 
 ## O que é um grupo de recursos?
