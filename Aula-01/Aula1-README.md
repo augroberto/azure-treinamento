@@ -1,5 +1,5 @@
 # Azure Treinamento (Aula 01 - Azure Basics Services)
-Nesta aula vamos apenas criar criar um resource group via Portal do Azure e tambem vamos ver como criar via Azure CLI
+Nesta aula vamos apenas criar um resource group via Portal do Azure e tambem vamos ver como criar via Azure CLI
 
 ## O que é um grupo de recursos?
 Um grupo de recursos é um contêiner que mantém os recursos relacionados a uma solução do Azure. O grupo de recursos pode incluir todos os recursos para a solução ou apenas os recursos que você deseja gerenciar como um grupo. Você decide como deseja alocar recursos para grupos de recursos com base no que faz mais sentido para sua organização... [Azure Docs](https://docs.microsoft.com/pt-br/azure/azure-resource-manager/management/manage-resource-groups-portal)
